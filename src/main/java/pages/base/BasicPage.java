@@ -1,11 +1,12 @@
-package base;
+package pages.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static constants.Constant.TimeOutVariables.EXPLICIT_WAIT;
+import java.time.Duration;
+
 
 public class BasicPage {
     // creating sample of driver
@@ -21,7 +22,7 @@ public class BasicPage {
     }
 
     public WebElement waitElementIsVisible(WebElement element){
-        new WebDriverWait(driver, EXPLICIT_WAIT).until(ExpectedConditions.visibilityOf(element));
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));
         return element;
     }
 }

@@ -1,27 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="" />
+    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/allure-results/16a61661-6580-46ee-9a7b-e3ef535387ce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/23b50e39-6005-45b9-9d20-fb008c389d36-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4b420f51-a48c-42ed-8fb4-5b7acec45c97-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f153da82-a822-4829-8cf2-b10fa44dcccd-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasicPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/bbc_com/BBCHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/bbc_com/BBCHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/base/GetArtistsAlbums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/base/GetArtistsAlbums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/searchProduct/SearchProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/searchProduct/SearchProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/signIn/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/signIn/SignInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/some/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/some/CommonActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/some/GetArtistsAlbumsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/some/GetArtistsAlbumsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/some/RestAssuredAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/some/RestAssuredAPITest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2H5UGiA31eqcnEvWiu1wwlESQXy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests.base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Edward\IdeaProjects\gmail-example3\src\test\java\tests\some" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.tests.base">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.base.A" />
+      <module name="spotify-selenium-java-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.some.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.base.B" />
+      <module name="spotify-selenium-java-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.some.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetArtistsAlbums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.base.GetArtistsAlbums" />
+      <module name="spotify-selenium-java-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.some.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetArtistsAlbums.GetArtistsAlbumss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spotify-selenium-java-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.base" />
+      <option name="MAIN_CLASS_NAME" value="tests.base.GetArtistsAlbums" />
+      <option name="METHOD_NAME" value="GetArtistsAlbumss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spotify-selenium-java-restassured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spotify-selenium-java-restassured" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.base" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spotify-selenium-java-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.base" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.tests.base" />
+        <item itemvalue="Application.GetArtistsAlbums" />
+        <item itemvalue="JUnit.GetArtistsAlbums.GetArtistsAlbumss" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.B" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +182,24 @@
       <updated>1667574346439</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gmail_example3$GetArtistsAlbums_GetArtistsAlbumss.ic" NAME="GetArtistsAlbums.GetArtistsAlbumss Coverage Results" MODIFIED="1674910957975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.base.*</FILTER>
+    </SUITE>
   </component>
 </project>
