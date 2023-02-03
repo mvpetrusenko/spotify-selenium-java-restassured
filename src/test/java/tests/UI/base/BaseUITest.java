@@ -34,7 +34,7 @@ public class BaseUITest {
 
 
         String baseUrl = "https://open.spotify.com/";
-            //return driver.get();
+        //return driver.get();
         driver.get(baseUrl);
 
         //WebElement acceptCookies = driver.findElement(By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]"));
@@ -47,6 +47,7 @@ public class BaseUITest {
         //driver.findElement(By.xpath("//button[@id='onetrust-accept-btn-handler']")).click();
 
 
-        }
+    }
 
 }
+
