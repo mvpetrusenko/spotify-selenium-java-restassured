@@ -6,6 +6,10 @@ public class Base extends RestAssuredAPITest {
         RestAssuredAPITest rs = new RestAssuredAPITest();
         getArtist();
         getArtistAlbums();
+        getArtistAlbumsNegative();
+        createPlaylistNegative();
 
     }
 }
+
+

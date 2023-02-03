@@ -3,9 +3,12 @@ package tests.some;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
+import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+
+import static org.hamcrest.Matchers.equalTo;
 
 //public class RestAssuredAPITest {
 //
@@ -41,8 +44,7 @@ import org.testng.annotations.BeforeTest;
 
 public class RestAssuredAPITest {
 
-    static String accessToken = "BQC9kF_xjJiZ9xYVTo5ICT2Ksem2Xgh2vgIFkUoxsjq0jAMlbjq7PIabJBLl5X1NrVn5j1CEwoo1ZdFejVf6ah-HKccaF9Jp-Sn8wQp4qoiLM_Z6M3Uc6UaZUqJSrRNOX4V4epd0vx9FCooZMeB1una7ljzzi6BbQ-eojw9EbM0voUagx1CbGqRAVMyXVvcNMmlfXp-btjlC9EHVnHLR8ci_VtgrYEU-cs_GIPa8938RxPy-6yjzhhzS1O5O0GCLChhTuGBHa-fVX4ghomOg95uqaZzY3acm_9Rh1C0K0QlBa7PfQ1GXp8ibwhLW4lv4gHxZHzAjusrxBw";
-
+    static String accessToken = "BQAGPRWMnzyZP9PierHXiadmO0AwpLhnV8YwJ6E0BEtdi2VmGY8TaoMisLaz4sKOdBwemptmy2XIAJK1hg-WaPGJNa4SgWmGMcRjgi-FhZ2gKrjaOcdybJ2-AHU1PUbzg1HK_oeAglyIlyQdEq3T9T3f7WrzLFWu9SR65gjOaKR-SD1D1f50uPa8iyD9dLKwsoVGDP6vFj5_cbMeNyFo2awnUSXIpz4NZ2C6WkVlxRGD8Ez_8jE8HqYR2q5UNbkhk5niFz55t_pZCt8vq90WgNi4cZ5INinka5MgE0Ana6fxwasT7YkxJficelQ20cGMYmq5TA50oyv5Zw";
 
 
 
@@ -76,7 +78,52 @@ public class RestAssuredAPITest {
                     .all()
                     .assertThat().statusCode(200);
         }
+
+
+
+    @Test
+    public static void getArtistAlbumsNegative(){
+        ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
+                .baseUri("https://api.spotify.com/").basePath("v1")
+                .accept(ContentType.JSON).header("Authorization", "Bearer " + accessToken)
+                .when()
+                .get("/artists/1111111111111111/albums")
+                .then()
+                .log()
+                .all()
+                .assertThat().statusCode(400);
     }
+
+
+    @Test
+    public static void createPlaylistNegative(){
+
+        String jsonBody = "{" +
+                "   \"name\":\"MyNewPlaylist\",\n" +
+                "   \"description\":\"This is the new playlist for testing framework\",\n" +
+                "   \"public\":\"false\"\n" +
+                "}";
+
+        ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
+                .baseUri("https://api.spotify.com/").basePath("v1")
+                .accept(ContentType.JSON).header("Authorization", "Bearer " + accessToken)
+                .and()
+                .body(jsonBody)
+                .when()
+                .post("/users/smedjan/playlists")
+                .then()
+                .log()
+                .all()
+                .assertThat().statusCode(403)
+                .and()
+                .statusLine("HTTP/1.1 403 Forbidden")
+                .body("error.status", equalTo(403))
+                .body("error.message", equalTo("You cannot create a playlist for another user."));
+                //.body(Matchers.equalTo("{\"code\":403,\"meta\":null,\"data\":{\"status\":\"403\","
+                        //+ "\"message\":\"You cannot create a playlist for another user.\"}"));
+    }
+
+}
 
 
 
