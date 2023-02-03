@@ -79,6 +79,7 @@ public class SearchProduct extends BaseUITest {
                         //Assert.assertTrue(searchInput.contains("Justin Bieber"));
                         //Assert.assertTrue(driver.getPageSource().contains("Justin Bieber");
                         //assertEquals(searchInput.getText(), "Justin Bieber");
+                        //
 
 
                 }

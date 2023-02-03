@@ -4,52 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="OK API tests (added Base class)">
-      <change afterPath="$PROJECT_DIR$/Tips.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="OK API tests, NOK allure report">
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/SearchProduct/SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/SearchProduct/SearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/some/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/some/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/some/RestAssuredAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/some/RestAssuredAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675436611165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="OK API tests, NOK allure report">
+      <created>1675454655742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675454655742</updated>
+    </task>
+    <task id="LOCAL-00005" summary="OK API tests, NOK allure report">
+      <created>1675454747385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675454747385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +205,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="OK API tests (added Base class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK API tests (added Base class)" />
+    <MESSAGE value="OK API tests, NOK allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK API tests, NOK allure report" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gmail_example3$RestAssuredAPITest.ic" NAME="RestAssuredAPITest Coverage Results" MODIFIED="1675440687511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
