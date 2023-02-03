@@ -1,4 +1,4 @@
-package tests.some;
+package tests.restAPI;
 
 public class Base extends RestAssuredAPITest {
     public static void main(String[] args) {

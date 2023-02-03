@@ -1,7 +1,6 @@
 package tests.UI.SearchProduct;
 
 //import java.util.concurrent.TimeUnit;
-import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
@@ -42,18 +41,6 @@ public class SearchProduct extends BaseUITest {
 
         //driver.get("https://open.spotify.com/");
 
-        public class ExampleTest {
-
-                @BeforeSuite
-                void setAllureEnvironment() {
-                        allureEnvironmentWriter(
-                                ImmutableMap.<String, String>builder()
-                                        .put("Browser", "Chrome")
-                                        .put("Browser.Version", "87.0.4280.88")
-                                        .put("URL", "http://eliasnogueira.com")
-                                        .build());
-                }
-
 
                 @Test
                 public void testSearchProduct() {
@@ -84,5 +71,5 @@ public class SearchProduct extends BaseUITest {
 
                 }
         }
-}
+
 

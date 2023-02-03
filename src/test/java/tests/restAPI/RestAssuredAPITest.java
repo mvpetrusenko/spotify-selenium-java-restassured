@@ -1,12 +1,9 @@
-package tests.some;
+package tests.restAPI;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
-import org.hamcrest.Matchers;
 import org.junit.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 
 import static org.hamcrest.Matchers.equalTo;
 
