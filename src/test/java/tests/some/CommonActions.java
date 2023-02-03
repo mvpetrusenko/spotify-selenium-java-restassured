@@ -3,15 +3,21 @@ package tests.some;
 //import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 
 
 public class CommonActions {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
-        WebDriver driver = new ChromeDriver(); // launch chrome
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+
+        //System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+
+       // WebDriver driver = new ChromeDriver(); // launch chrome
 
         driver.manage().window().maximize(); // maximize window
         driver.manage().deleteAllCookies(); // delete all the cookies

@@ -7,10 +7,12 @@ import org.junit.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+//public class RestAssuredAPITest {
+//
+//    static String accessToken = "BQC9kF_xjJiZ9xYVTo5ICT2Ksem2Xgh2vgIFkUoxsjq0jAMlbjq7PIabJBLl5X1NrVn5j1CEwoo1ZdFejVf6ah-HKccaF9Jp-Sn8wQp4qoiLM_Z6M3Uc6UaZUqJSrRNOX4V4epd0vx9FCooZMeB1una7ljzzi6BbQ-eojw9EbM0voUagx1CbGqRAVMyXVvcNMmlfXp-btjlC9EHVnHLR8ci_VtgrYEU-cs_GIPa8938RxPy-6yjzhhzS1O5O0GCLChhTuGBHa-fVX4ghomOg95uqaZzY3acm_9Rh1C0K0QlBa7PfQ1GXp8ibwhLW4lv4gHxZHzAjusrxBw";
+//
 
-public class RestAssuredAPITest {
-
-    String token;
+    //static String token;
 
     //private static String token;
 
@@ -21,55 +23,63 @@ public class RestAssuredAPITest {
 //    }
 
 
-    @BeforeTest
-    public void setUp(){
-       token = "BQAwx74RzgMNXHKHGnnC9_LCn7jYmPVUUE4Xy-POh5VSzhtSPZH04TOwHknRyDVNRok3P6QYnOO9MXYI5FHFtwrZmy9Ybu4srWNBhopyM3vulYo-Sjsd7ytmohSytpCWqE2VLRWxdMuogvdzHu-28NwgwOhpXoF8ibK3DVtKtTHSK322DJWOXDiqiTRsluCMLUIc";
-    }
+//    @BeforeTest
+//    //public void setUp() {
+//    public static void main(String[] args){
+//        public static String accessToken = "BQC9kF_xjJiZ9xYVTo5ICT2Ksem2Xgh2vgIFkUoxsjq0jAMlbjq7PIabJBLl5X1NrVn5j1CEwoo1ZdFejVf6ah-HKccaF9Jp-Sn8wQp4qoiLM_Z6M3Uc6UaZUqJSrRNOX4V4epd0vx9FCooZMeB1una7ljzzi6BbQ-eojw9EbM0voUagx1CbGqRAVMyXVvcNMmlfXp-btjlC9EHVnHLR8ci_VtgrYEU-cs_GIPa8938RxPy-6yjzhhzS1O5O0GCLChhTuGBHa-fVX4ghomOg95uqaZzY3acm_9Rh1C0K0QlBa7PfQ1GXp8ibwhLW4lv4gHxZHzAjusrxBw";
+//
+//        //System.out.println("Great!");
+//    }
     //static String token = "BQDw716QkiXsLu-Mbj-K8GvzibrX6k_vqwVTFodLwes_xJvR6kdkhvDDPkI23aCcKgrnykcxUUwlggBQbak1StfF1fAjmapk7DeuPBN1mdES-EtoXct91JfTr2DwfL49-n3RvfVfSNvNXOQFhtYXxK-38xBL9cxMUuu73tH26aX2V_tuGenMCWfr0xTc-OVMVuqo";
 
 
+//    @Test
+//    public static void main(String[] args) {
+//
+//        System.out.println("Great!");
+//    }
 
-    @Test
-    public static void main(String[] args) {
+public class RestAssuredAPITest {
 
-        System.out.println("Great!");
+    static String accessToken = "BQC9kF_xjJiZ9xYVTo5ICT2Ksem2Xgh2vgIFkUoxsjq0jAMlbjq7PIabJBLl5X1NrVn5j1CEwoo1ZdFejVf6ah-HKccaF9Jp-Sn8wQp4qoiLM_Z6M3Uc6UaZUqJSrRNOX4V4epd0vx9FCooZMeB1una7ljzzi6BbQ-eojw9EbM0voUagx1CbGqRAVMyXVvcNMmlfXp-btjlC9EHVnHLR8ci_VtgrYEU-cs_GIPa8938RxPy-6yjzhhzS1O5O0GCLChhTuGBHa-fVX4ghomOg95uqaZzY3acm_9Rh1C0K0QlBa7PfQ1GXp8ibwhLW4lv4gHxZHzAjusrxBw";
 
-    }
 
 
 
     //Get artist
-    @Test
-    public void GetArtist() {
+        @Test
+        public static void getArtist(){
 
-        ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
-                .baseUri("https://api.spotify.com/").basePath("v1")
-                .accept(ContentType.JSON).header("Authorization", "Bearer " + token)
-                .when()
-                .get("/artists/1RyvyyTE3xzB2ZywiAwp0i")
-                .then()
-                .log()
-                .all()
-                .assertThat().statusCode(200);
+            ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
+                    .baseUri("https://api.spotify.com/").basePath("v1")
+                    .accept(ContentType.JSON).header("Authorization", "Bearer " + accessToken)
+                    .when()
+                    .get("/artists/1RyvyyTE3xzB2ZywiAwp0i")
+                    .then()
+                    .log()
+                    .all()
+                    .assertThat().statusCode(200);
 
+        }
+
+
+        //Get Artist`s Albums
+        @Test
+        public static void getArtistAlbums(){
+            ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
+                    .baseUri("https://api.spotify.com/").basePath("v1")
+                    .accept(ContentType.JSON).header("Authorization", "Bearer " + accessToken)
+                    .when()
+                    .get("/artists/1RyvyyTE3xzB2ZywiAwp0i/albums")
+                    .then()
+                    .log()
+                    .all()
+                    .assertThat().statusCode(200);
+        }
     }
 
 
-    //Get Artist`s Albums
-    @Test
-    public void GetArtistAlbums() {
-        ValidatableResponse response = RestAssured.given().contentType(ContentType.JSON)
-                .baseUri("https://api.spotify.com/").basePath("v1")
-                .accept(ContentType.JSON).header("Authorization", "Bearer " + token)
-                .when()
-                .get("/artists/1RyvyyTE3xzB2ZywiAwp0i/albums")
-                .then()
-                .log()
-                .all()
-                .assertThat().statusCode(200);
-    }
 
-}
 
 
 
