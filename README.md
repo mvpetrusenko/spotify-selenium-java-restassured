@@ -4,4 +4,5 @@
 
 1. Rest API requests are OK (positive/negative/GET/POST) 
 2. Allure report is empty 
-3. In UI folder can`t clik Accept cookies button (tried different waits)
+3. UI/pages folder was created for Page Object files
+4. In UI/pages/SearchProduct can`t clik Accept cookies button (tried different waits)
