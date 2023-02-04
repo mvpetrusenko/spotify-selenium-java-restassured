@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="NoSuchMethodError Immutable Map">
+    <list default="true" id="1deba764-6e9a-4736-886d-bf375df2217e" name="Changes" comment="without ImmutableMap error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/SearchProduct/SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/SearchProduct/SearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/base/BaseUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/base/BaseUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/restAPI/RestAssuredAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/restAPI/RestAssuredAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="C:\Users\Edward\IdeaProjects\gmail-example3\src\test\java\tests\some" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchProduct">
+  <component name="RunManager" selected="Application.Base">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.restAPI.Base" />
       <module name="spotify-selenium-java-restassured" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchProduct" />
-        <item itemvalue="Application.BaseUITest" />
-        <item itemvalue="JUnit.SearchProduct.testSearchProduct" />
         <item itemvalue="Application.Base" />
         <item itemvalue="JUnit.RestAssuredAPITest" />
+        <item itemvalue="Application.SearchProduct" />
+        <item itemvalue="JUnit.SearchProduct.testSearchProduct" />
+        <item itemvalue="Application.BaseUITest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675459243013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="without ImmutableMap error">
+      <created>1675460994082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675460994082</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +234,8 @@
     <MESSAGE value="OK API tests (added Base class)" />
     <MESSAGE value="OK API tests, NOK allure report" />
     <MESSAGE value="NoSuchMethodError Immutable Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="NoSuchMethodError Immutable Map" />
+    <MESSAGE value="without ImmutableMap error" />
+    <option name="LAST_COMMIT_MESSAGE" value="without ImmutableMap error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,7 +260,7 @@
     <SUITE FILE_PATH="coverage/gmail_example3$BaseUITest.ic" NAME="BaseUITest Coverage Results" MODIFIED="1675458776595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.UI.base.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/gmail_example3$SearchProduct.ic" NAME="SearchProduct Coverage Results" MODIFIED="1675457561958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/gmail_example3$SearchProduct.ic" NAME="SearchProduct Coverage Results" MODIFIED="1675505112754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.UI.SearchProduct.*</FILTER>
     </SUITE>
   </component>
